@@ -1,10 +1,10 @@
-Consulta de Signos – PHP, XML e Bootstrap
+##Consulta de Signos – PHP, XML e Bootstrap
 
 Aplicação web simples que descobre o signo zodiacal de uma pessoa a partir da data de nascimento. O usuário digita a data em um formulário, o PHP compara essa data com os períodos de cada signo (guardados em um arquivo XML) e a página mostra o signo e sua descrição.
 
 Projeto desenvolvido como aula prática da disciplina Programação Web (Unidade 1 – Fundamentos da Web com HTML5, Aula 4 – Exercícios práticos com HTML), do curso superior de Tecnologia em Análise e Desenvolvimento de Sistemas da Anhanguera Educacional.
 
-Funcionalidades
+###Funcionalidades
 Formulário HTML para informar a data de nascimento (dd/mm/aaaa).
 Leitura dos dados dos 12 signos a partir de um arquivo XML.
 Identificação do signo pela data, incluindo o caso de Capricórnio, que atravessa a virada do ano (22/12 a 20/01).
@@ -41,7 +41,7 @@ http://localhost/Project/index.php
 
 O PHP precisa ser executado por um servidor. Abrir os arquivos direto pelo Explorer do Windows (file:///...) não funciona.
 
-Como funciona
+###Como funciona
 index.php mostra o formulário. O campo data_nascimento é enviado pelo método POST para show_zodiac_sign.php.
 show_zodiac_sign.php recebe o valor em $_POST['data_nascimento'] e carrega o signos.xml com simplexml_load_file.
 O PHP percorre cada <signo> do XML. Como as datas do XML têm só dia e mês (21/03) e a data digitada tem ano, elas são convertidas em datas completas (DateTime) usando o ano de nascimento informado. Assim a comparação é feita em ordem cronológica, e não como texto.
@@ -73,11 +73,11 @@ Data informada	Signo esperado	Observação
 abc	mensagem de erro	data inválida
 Capturas de tela
 
-Formulário – página inicial, com a data de nascimento digitada:
+**Formulário** – página inicial, com a data de nascimento digitada:
 
 ![Formulário inicial](docs/formulario.png)
 
-Resultado – signo e descrição exibidos após clicar em Descobrir (exemplo: 29/01/2007 → Aquário):
+**Resultado** – signo e descrição exibidos após clicar em Descobrir (exemplo: 29/01/2007 → Aquário):
 
 ![Página de resultado](docs/resultado.png)
 
@@ -87,6 +87,6 @@ Desenvolvimento de formulários HTML e integração com PHP (método POST).
 Lógica condicional e manipulação de datas em PHP.
 Reaproveitamento de código com include.
 Estilização de páginas com Bootstrap.
-Autor
+**Autor**
 
 Bruno Henrique dos Santos Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas – Anhanguera Educacional
