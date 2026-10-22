@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<signos>
+    <signo>
+        <dataInicio>21/03</dataInicio>
+        <dataFim>20/04</dataFim>
+        <signoNome>Áries</signoNome>
+        <descricao>Áries é o primeiro signo do zodíaco, regido por Marte e associado ao elemento Fogo.</descricao>
+    </signo>
+
+    <signo> 
+        <dataInicio>21/04</dataInicio>
+        <dataFim>20/05</dataFim>
+        <signoNome>Touro</signoNome>
+        <descricao>Touro é o segundo signo do zodíaco,governado pelo planeta Vênus e regido pelo elemento Terra.</descricao>
+    </signo>
+
+    <signo> 
+        <dataInicio>21/05</dataInicio>
+        <dataFim>20/06</dataFim>
+        <signoNome>Gêmeos</signoNome>
+        <descricao>Gêmeos é o terceiro signo do zodíaco, regido pelo planeta Mercúrio e pertencente ao elemento Ar.</descricao>
+    </signo>
+
+    <signo> 
+        <dataInicio>21/06</dataInicio>
+        <dataFim>22/07</dataFim>
+        <signoNome>Câncer</signoNome>
+        <descricao>Câncer é o quarto signo do zodíaco, regido pela Lua e pertencente ao elemento Água.</descricao>
+    </signo>
+
+    <signo> 
+        <dataInicio>23/07</dataInicio>
+        <dataFim>22/08</dataFim>
+        <signoNome>Leão</signoNome>
+        <descricao>O signo de Leão é do elemento Fogo, regido pelo Sol. É conhecido por seu forte magnetismo, generosidade, criatividade e grande autoconfiança, destacando-se como um líder natural que brilha por onde passa.</descricao>
+    </signo>
+
+    <signo> 
+        <dataInicio>23/08</dataInicio>
+        <dataFim>22/09</dataFim>
+        <signoNome>Virgem</signoNome>
+        <descricao>O signo de Virgem é o sexto do zodíaco, regido por Mercúrio e do elemento Terra.</descricao>
+    </signo>
+
+    <signo> 
+        <dataInicio>23/09</dataInicio>
+        <dataFim>22/10</dataFim>
+        <signoNome>Libra</signoNome>
+        <descricao>Libra é o sétimo signo do zodíaco, pertencente ao elemento Ar e regido por Vênus .</descricao>
+    </signo>
+
+    <signo> 
+        <dataInicio>23/10</dataInicio>
+        <dataFim>21/11</dataFim>
+        <signoNome>Escorpião</signoNome>
+        <descricao>O signo de Escorpião é o oitavo do zodíaco. Regido por Plutão e Marte, pertence ao elemento Água. É conhecido por sua grande profundidade emocional, intuição afiada e forte poder de transformação, vivendo tudo de maneira intensa e verdadeira.</descricao>
+    </signo>
+
+    <signo> 
+        <dataInicio>22/11</dataInicio>
+        <dataFim>21/12</dataFim>
+        <signoNome>Sagitário</signoNome>
+        <descricao>O signo de Sagitário é do elemento Fogo e regido por Júpiter. É representado pelo centauro com um arco e flecha.</descricao>
+    </signo>
+
+    <signo> 
+        <dataInicio>22/12</dataInicio>
+        <dataFim>20/01</dataFim>
+        <signoNome>Capricórnio</signoNome>
+        <descricao>O signo de Capricórnio é do elemento Terra e regido pelo planeta Saturno. É representado pela cabra e simboliza a ambição, a disciplina, o pragmatismo e a busca constante por estabilidade e sucesso a longo prazo.</descricao>
+    </signo>
+
+    <signo> 
+        <dataInicio>21/01</dataInicio>
+        <dataFim>19/02</dataFim>
+        <signoNome>Aquário</signoNome>
+        <descricao>Ar , com ritmo Fixo , regido por Urano e co-regido por Saturno . Os aquarianos são conhecidos por sua originalidade, forte senso de liberdade, visão futurista e espírito humanitário.</descricao>
+    </signo>
+
+    <signo>
+        <dataInicio>20/02</dataInicio>
+        <dataFim>20/03</dataFim>
+        <signoNome>Peixes</signoNome>
+        <descricao>Peixes é o décimo segundo e último signo do Zodíaco, governado pelo elemento Água e regido pelo planeta Netuno. Os piscianos são amplamente conhecidos por sua profunda sensibilidade, intuição aguçada e natureza empática.</descricao>
+    </signo>
+</signos>

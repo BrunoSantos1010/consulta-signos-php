@@ -1,0 +1,8 @@
+.resultado-card {
+    background: linear-gradient(to bottom, #9088a8, #4b4590, #262578);
+    border: none;
+}
+
+.resultado-titulo {
+    letter-spacing: 0.3rem;
+}
